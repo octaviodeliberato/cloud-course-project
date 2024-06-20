@@ -4,14 +4,16 @@
 
 [project]
 name = "cloud-course-project"
-description = "My package description"
-authors = [{ name = "<your name>", email = "some-email@gmail.com" }]
+description = "cloud-course-project"
+authors = [
+    { name = "Octavio Deliberato Neto", email = "octavio.deliberato@aggxtream.com" },
+]
 readme = "README.md"
 requires-python = ">=3.7"
 license = { text = "MIT" }
 dependencies = ["boto3"]
 classifiers = ["Programming Language :: Python :: 3"]
-keywords = ["one", "two"]
+keywords = ["AWS", "S3", "API"]
 
 # version will be derived dynamically from version.txt via setuptools
 dynamic = ["version"]
